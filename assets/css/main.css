@@ -150,7 +150,11 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
 }
-
+.sitename img {
+  width: 200px;   /* increase size */
+  height: 100px !important;   
+  object-fit: contain;
+}
 .header .logo {
   line-height: 1;
 }
